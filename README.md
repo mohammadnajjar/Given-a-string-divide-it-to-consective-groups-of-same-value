@@ -1,14 +1,10 @@
-# Given-a-string-divide-it-to-consective-groups-of-same-value
-Given a string, divide it to consective groups of same value
+# Homework
 
 Given a string, divide it to consective groups of same value
 E.g input: 111222aabbb#
 => 111   222  aa bbb #
 E.g. Input HHHH
 => HHHH (just 1 group)
-
-
-
 
 #include <bits/stdc++.h>
 #include <iostream>
@@ -42,5 +38,4 @@ int main()
         if(alphabet[i]>0)cout<< char(i + 'a')<<" : "<< alphabet[i]<< endl;
     for (i = 0; i < 10; i++) if(num[i]>0)cout<< i<<" : "<< num[i]<< endl;
     cout<< w<< endl;
-    return 0;
-}
+    return 0;}
