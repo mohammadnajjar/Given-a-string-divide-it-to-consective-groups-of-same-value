@@ -6,6 +6,8 @@ E.g input: 111222aabbb#
 E.g. Input HHHH
 => HHHH (just 1 group)
 
+
+
 #include <bits/stdc++.h>
 #include <iostream>
 using namespace std;
