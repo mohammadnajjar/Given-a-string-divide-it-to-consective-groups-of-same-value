@@ -1,5 +1,5 @@
 # Homework
-
+____________________________________
 Given a string, divide it to consective groups of same value
 E.g input: 111222aabbb#
 => 111   222  aa bbb #
@@ -7,19 +7,21 @@ E.g. Input HHHH
 => HHHH (just 1 group)
 
 
+____________________________________
 
-#include <bits/stdc++.h>
-#include <iostream>
-using namespace std;
-int main()
-{
-    char str[100] ;
-   cin>>str;
-    int i = 0, alphabet[26] = {0}, j,w=0,num[10];
+
+    
+    #include <bits/stdc++.h>
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+     char str[100] ;
+    cin>>str;
+        int i = 0, alphabet[26] = {0}, j,w=0,num[10];
     memset(num,0,sizeof(num));
     while (str[i] != '\0')
     {
-
         if (str[i] >= 'a' && str[i] <= 'z')
         {
             j = str[i] - 'a';
@@ -42,3 +44,4 @@ int main()
     cout<< w<< endl;
     return 0;
     }
+____________________________________
