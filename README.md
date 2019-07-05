@@ -40,4 +40,5 @@ int main()
         if(alphabet[i]>0)cout<< char(i + 'a')<<" : "<< alphabet[i]<< endl;
     for (i = 0; i < 10; i++) if(num[i]>0)cout<< i<<" : "<< num[i]<< endl;
     cout<< w<< endl;
-    return 0;}
+    return 0;
+    }
